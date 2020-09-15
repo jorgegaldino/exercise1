@@ -9,12 +9,12 @@ import org.junit.Test;
 /**
  * Teste Unitário para Exercicio1
  */
-public class AppTest {
-	Logger logger = Logger.getLogger(AppTest.class.getName());
+public class TestExercicio1 {
+	Logger logger = Logger.getLogger(TestExercicio1.class.getName());
 
 
     @Test
-    public void testApp()
+    public void teste()
     {
     	logger.info("Teste AssertEquals(321) on solution(213)");
         assertEquals(new Integer(321), new Integer(new Exercise1().solution(213)));
@@ -30,5 +30,9 @@ public class AppTest {
         
     	logger.info("Teste AssertEquals(98763222) on solution(28762392)");
         assertEquals(new Integer(98763222), new Integer(new Exercise1().solution(28762392)));
+        
+    	logger.info("Teste AssertEquals(-1) on solution(100000001)");
+        assertEquals(new Integer(-1), new Integer(new Exercise1().solution(100000001)));
+
     }
 }
