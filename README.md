@@ -1,6 +1,6 @@
-# exercise1
+# Exercício 1
 
-Exercício 1
+
 
 A solução para esse exercício consiste no seguinte:
 
